@@ -36,7 +36,7 @@ st.write("Niche diye gaye sliders se parameters change karein aur prediction che
 # 2. 5 Features ke liye Sliders
 st.sidebar.header("Input Parameters")
 
-f1 = st.sidebar.slider("Feature 1", 0.0, 100.0, 50.0)
+f1 = st.sidebar.slider("Feature 1", 0.0, 100.0, 75.0)
 f2 = st.sidebar.slider("Feature 2", 0.0, 100.0, 50.0)
 f3 = st.sidebar.slider("Feature 3", 0.0, 100.0, 50.0)
 f4 = st.sidebar.slider("Feature 4", 0.0, 100.0, 50.0)
